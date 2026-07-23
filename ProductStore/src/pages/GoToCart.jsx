@@ -41,9 +41,9 @@ const GoToCart = () => {
           <tr>Discount : -${discount}</tr>
           <tr>Total Amount : ${total - discount}</tr>
         </table>
-        <button>Pay Now</button>
+        <button>Pay By Cash</button>
+        <button>Pay Online</button>
       </div>
-      
     </div>
   )
 }
